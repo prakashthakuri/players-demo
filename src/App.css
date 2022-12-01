@@ -1,0 +1,93 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.Container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.subContainer {
+  width: 55%;
+  border: 2px solid #176fc5;
+}
+.headingContainer {
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-size: 40px;
+  font-weight: bold;
+  border: 1px solid #176fc5;
+  color: #176fc5;
+}
+.infoContainer {
+  height: 80px;
+  width: 100%;
+
+  flex-direction: row;
+  display: flex;
+
+  font-size: 30px;
+  margin-top: 20px;
+}
+.infoName {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  color: #176fc5;
+}
+.infoTexInput {
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.inputType {
+  width: 50%;
+}
+.buttonContainer {
+  height: 70px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin-top: 30px;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

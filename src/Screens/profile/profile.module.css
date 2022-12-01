@@ -1,0 +1,81 @@
+.mainComponent {
+  height: 550px;
+  width: 100%;
+  border: 2px solid #176fc5;
+  margin-bottom: 10px;
+  flex-direction: row;
+  display: flex;
+  background-color: #f7f7f7;
+}
+.imageComponent {
+  height: 95%;
+  width: 20%;
+  border: 1px solid #176fc5;
+  margin: 4px 0px 0px 4px;
+}
+.rightComponent {
+  height: 100%;
+  width: 78%;
+  flex-direction: column;
+  display: flex;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+.detailComponent {
+  width: 100%;
+  height: 50px;
+  margin-top: 5px;
+  flex-direction: row;
+  display: flex;
+}
+.leftDetailComponent {
+  height: 100%;
+  width: 50%;
+  border: 1px solid #176fc5;
+  justify-content: flex-start;
+  align-items: center;
+  display: flex;
+  padding-left: 30px;
+  font-size: 20px;
+  color: #176fc5;
+  background-color: white;
+}
+.rightDetailComponent {
+  height: 100%;
+  width: 50%;
+  border: 1px solid #176fc5;
+  justify-content: flex-start;
+  align-items: center;
+  display: flex;
+  font-size: 20px;
+  color: #176fc5;
+  padding-left: 30px;
+  background-color: white;
+}
+.bottomComponent {
+  height: 100%;
+  width: 100%;
+  border: 1px solid #176fc5;
+  align-items: center;
+  display: flex;
+  font-size: 20px;
+  padding-left: 30px;
+  color: #176fc5;
+  background-color: white;
+}
+.button{
+  background-color: #176fc5;
+  width: 50%;
+  height: 60px;
+  display: flex;
+  align-self: center;
+  margin-top: 50px;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size:25px;
+  cursor: pointer;
+}
+.button:hover{
+  background-color: #054e97;
+}
